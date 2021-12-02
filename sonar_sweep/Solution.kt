@@ -10,7 +10,7 @@ fun main() {
     val input = readInputAsInts(InputFilePath)
     println(input.windowed(2).count { (a, b) -> a < b })
 
-    // Part 2
+    // Part 2 (though the input is same, but still... :) )
     val input_2 = readInputAsInts(InputFilePath)
     // x+y+z compared with y+z+a
     // y+z is common, we can directly
