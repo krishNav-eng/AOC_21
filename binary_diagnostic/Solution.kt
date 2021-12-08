@@ -2,7 +2,7 @@ package binary_diagnostic
 
 import java.io.File
 
-const val InputFilePath = "/input.aoc"
+const val InputFilePath = "input.aoc"
 
 // GammaRate, EpsilonRate
 fun part1(input: List<String>) {
@@ -34,8 +34,8 @@ fun part2(input: List<String>): Int {
             val (zeroes, ones) = list.bitCountInColumn(c)
             list.filter {
                 when (type) {
-                    RatingType.OXYGEN -> it[c] == if (ones>zeroes) '1' else '0'
-                    RatingType.CO2 -> it[c] != if (ones>zeroes) '1' else '0'
+                    RatingType.OXYGEN -> it[c] == if (ones>=zeroes) '1' else '0'
+                    RatingType.CO2 -> it[c] != if (ones>=zeroes) '1' else '0'
                 }
             }
         }
