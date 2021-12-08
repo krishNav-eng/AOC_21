@@ -2,7 +2,7 @@ package binary_diagnostic
 
 import java.io.File
 
-const val InputFilePath = "/binary_diagnostic/input.aoc"
+const val InputFilePath = "/input.aoc"
 
 // GammaRate, EpsilonRate
 fun part1(input: List<String>) {
