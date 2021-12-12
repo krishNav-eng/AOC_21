@@ -1,4 +1,4 @@
-package binary_diagnostic
+package binary_diagnostic_day_3
 
 import java.io.File
 
