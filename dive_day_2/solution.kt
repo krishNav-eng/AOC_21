@@ -1,4 +1,4 @@
-package aoc_21.dive
+package aoc_21.dive_day_2
 
 import java.io.File
 
