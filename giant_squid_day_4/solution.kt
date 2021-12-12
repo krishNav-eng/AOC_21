@@ -1,4 +1,4 @@
-package giant_squid
+package giant_squid_day_4
 
 import java.io.File
 
